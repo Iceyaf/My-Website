@@ -1,11 +1,48 @@
 <!DOCTYPE html>
-
 <html lang="en">
-
 <title>Page Title</title>
 
 <meta charset="utf-8">
 </div>
 <body>
-  <body style="background-color:Magenta;">
-   <h1>This is my Portfolio</h1>
+	<body style="background-color:White;">
+   <h1>Portfolio Page</h1>
+		<link href="portfolio.css" rel="stylesheet" type="text/css"
+    />
+    <P>Im a fan of all these teams</P>
+	</body>
+  <script src="Portfolio.js"></script>
+</body>
+<div class="slideshow-container">
+
+ 
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="Lakers.jpg" style="width:50%">
+    <div class="text">Lakers</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="bayern.png" style="width:50%">
+    <div class="text">Bayern Munich</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="Chelsea.png" style="width:50%">
+    <div class="text">Chelsea</div>
+  </div>
+
+  
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
