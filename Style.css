@@ -6,45 +6,11 @@ h1 {
 }
 
 a:link {
-  color: purple;
+  color: white;
 }
 a:visited {
-  color: yellow;
+  color: Red;
 }
 p {
   text-shadow: 2px 2px 5px black;
-}
-
-.navbar {
-  width: 100%;
-  background-color:white;
-  overflow: auto;
-}
-
-/* Navbar links */
-.navbar a {
-  float: left;
-  text-align: center;
-  padding: 12px;
-  color: red;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-
-.navbar a:hover {
-  background-color: white;
-}
-
-
-.active {
-  background-color: black;
-}
-
-
-@media screen and (max-width: 500px) {
-  .navbar a {
-    float: none;
-    display: block;
-  }
 }
